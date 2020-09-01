@@ -1,0 +1,211 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+}
+header #box-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+header #box-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+header #box-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1150px;
+}
+header #box-4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+header #sign-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.nav-link{
+  color: black;
+  text-decoration: none;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+#box-1, #box-2{
+  opacity: 0.85;
+}
+header #sign-btn button{
+  background-color: #1E90FF;
+  color: white;
+  font-size: 15px;
+  border: 0;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+#main{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 410px;
+  width: 100%;
+}
+#main #main-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+#form, #input {
+  width: 550px;
+  border-radius: 50px;
+  height: 40px;
+}
+#form, .thin-border{
+  border-color: #D3D3D3;
+  border-width: 1px;
+  border-style: solid;
+}
+#form:hover{
+  box-shadow: 0 0 10px 1px lightgrey;
+}
+#search-luck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0px;
+  width: 22%;
+}
+#search-luck .button {
+  background-color: #DCDCDC;
+  color: black;
+  opacity: 0.85;
+  font-size: 15px;
+  border: 0;
+  border-radius: 0px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+#search-luck .button:hover {
+  color: black;
+  background-color: #F5F5F5;
+  border-color: #D3D3D3;
+  border-width: 1px;
+  border-style: solid;
+}
+footer #navbar-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  margin-top: 100px;
+  background-color: #DCDCDC;
+  color: black;
+  opacity: 0.85;
+  border-color: #D3D3D3;
+  border-width: 1px;
+  border-style: solid;
+}
+footer #navbar-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  background-color: #DCDCDC;
+  color: black;
+  opacity: 0.85;
+  border-color: #D3D3D3;
+  border-width: 2px;
+  border-style: solid;
+}
+#country {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+#advertising {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+#business {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+#how {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+#privacy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 900px;
+}
+#terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+#settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
