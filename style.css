@@ -93,6 +93,8 @@ header #sign-btn button{
   width: 550px;
   border-radius: 50px;
   height: 40px;
+  background: url(https://www.vippng.com/png/detail/205-2051890_png-search-magnifying-glass-icon.png) no-repeat 1.25%, url(https://icons-for-free.com/iconfiles/png/512/microphone+icon-1320183704865921193.png) no-repeat 97.25%;
+  background-size: 3.5%;
 }
 #form, .thin-border{
   border-color: #D3D3D3;
